@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body {
+    font-size: medium;
+    color:cornflowerblue;
+}
+h1 {
+    color: darkcyan;
+    font-size: large;
+}
+h2 {
+    color:darkolivegreen
+}

@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tribute Page to Agnes Varda</title>
+    <title>Tribute Page to Agnès Varda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Agnes Varda</h1>
-    <img src="" alt="Lizzo at MET">
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/varda-small.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/varda-med.png" type="image/png">
+        <img src="img/varda-big.png" alt="Foto de Agnes Varda">
+    </picture>
     <p><q>Sempre luto contra a estupidez, inclusive a minha</q> </p>
     <p>Cineasta autodidata francesa incrivel, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptates consequatur culpa <strong>enim</strong> eius accusantium. Non temporibus esse est dicta porro deserunt unde, necessitatibus aperiam dolorum quos corporis, repellat eligendi!
     </p>
@@ -16,11 +21,22 @@
     <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolor velit necessitatibus error, dolores laboriosam, dolorum quas id modi, rerum ipsam eveniet sequi. Voluptates cumque magnam in incidunt, dolores praesentium.</blockquote>
     <p>Eu estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr></p>
     <ul type="circle">
-        <li>Filme 1</li>
+        <li>Bonheur</li>
         <li>Filme 2</li>
         <li>Filme 3</li>
     </ul>
     <a href="https://www.arvoredostudio.com" target="_blank" rel="external">Arvoredo site</a>
     <p>Conheça minha segunda página sobre agnes varda sobre sua vida. <a href="pag002.html" target="_self" rel="next">vida pessoal de varda</a></p>
+    <audio src="media/Dance, Don't Delay - Twin Musicom.mp3" controls autoplay>Musica 1</audio>
+    <audio preload="auto" controls autoplay loop>
+        <source src="media/Dance, Don't Delay - Twin Musicom.mp3" type="audio/mpeg">
+        <source src="media/dance.ogg" type="audio.ogg">
+        <p>Infelizmente seu navegador não pode ouvir áudios, pode fazer download </p><a href="media/Dance, Don't Delay - Twin Musicom.mp3">aqui</a>
+    </audio>
+    <p>Dance, Don't Delay de Twin Musicom é licenciada de acordo com a licença Atribuição 4.0 da Creative Commons. https://creativecommons.org/licenses/by/4.0/
+
+        Fonte: http://www.twinmusicom.org/song/303/dance-dont-delay
+        
+        Artista: http://www.twinmusicom.org</p>
 </body>
 </html>
