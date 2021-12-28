@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tribute Page to Agnès Varda</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Agnes Varda</h1>
+    <h1 class="animate__animated animate__bounce">Agnes Varda</h1>
     <picture>
-        <source media="(max-width: 750px)" srcset="img/varda-small.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="img/varda-med.png" type="image/png">
-        <img src="img/varda-big.png" alt="Foto de Agnes Varda">
+        <source media="(max-width: 500px)" srcset="img/varda-small.png" type="image/png">
+        <source media="(max-width: 750px)" srcset="img/varda-med.png" type="image/png">
+        <img class="displayed" src="img/varda-big.png" width="300px" alt="Foto de Agnes Varda">
     </picture>
-    <p><q>Sempre luto contra a estupidez, inclusive a minha</q> </p>
+    <p style="text-align: center;"><q>Sempre luto contra a estupidez, inclusive a minha</q></p>
     <p>Cineasta autodidata francesa incrivel, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptates consequatur culpa <strong>enim</strong> eius accusantium. Non temporibus esse est dicta porro deserunt unde, necessitatibus aperiam dolorum quos corporis, repellat eligendi!
     </p>
     <p>Em seu livro sobre Varde, o autor diz:</p>
@@ -25,6 +29,14 @@
         <li>Filme 2</li>
         <li>Filme 3</li>
     </ul>
+    <div class="container">
+        <img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg" alt="">
+        <img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg" alt="">
+        <img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg" alt="">
+        <img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg" alt="">
+        <img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg" alt="">
+        <img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg" alt="">
+    </div>
     <a href="https://www.arvoredostudio.com" target="_blank" rel="external">Arvoredo site</a>
     <p>Conheça minha segunda página sobre agnes varda sobre sua vida. <a href="pag002.html" target="_self" rel="next">vida pessoal de varda</a></p>
     <audio src="media/Dance, Don't Delay - Twin Musicom.mp3" controls autoplay>Musica 1</audio>
